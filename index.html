@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link's -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <!-- fa -->
+    <script src="https://kit.fontawesome.com/07706d4a86.js" crossorigin="anonymous"></script>
+    <!-- aos animate -->
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <!-- title -->
+    <title>H2 Designer</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"><img src="images/logo-h2.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="container-1" onclick="myFunction(this)">
+                                <div class="bar bar1"></div>
+                                <div class="bar bar2"></div>
+                                <div class="bar bar3"></div>
+                            </div>
+                        </button>
+                        <script>
+                            function myFunction(x) {
+                                x.classList.toggle("change");
+                            }
+
+                        </script>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Service</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Send Your ui Demo
+                                </a>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Start main-content -->
+    <div class="main-content">
+
+        <!-- Section fist -->
+        <section class="body pt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 middle">
+                        <h1 class="text-white">Welcome, Thanks For Visit</h1>
+                        <p class="text-white">we are provide best service tha latest designe latest technology. </p>
+                        <a href="#"><span>PREMIUM DESIGN</span><span>PREMIUM DESIGN</span></a>
+                        <a href="#"><span>FREE DESIGN</span><span>FREE DESIGN</span></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <img src="images/1.png" alt="logo" class="middle-img aos-init aos-animate d-block" data-aos="zoom-in" data-aos-duration="1500">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript">
+            const cursor = document.querySelector(".cursor");
+            var timeout;
+
+            //cursor movement
+            document.addEventListener("mousemove", (e) => {
+                let x = e.pageX;
+                let y = e.pageY;
+
+                cursor.style.top = y + 'px';
+                cursor.style.left = x + 'px';
+                cursor.style.display = 'block';
+
+                //stop mousenone
+                function mousestopped() {
+                    cursor.style.display = 'none';
+                }
+
+                //hide mouse affter sume time 
+                clearTimeout(timeout);
+                timeout = setTimeout(mousestopped, 1000);
+            });
+
+        </script>
+        <!-- Section fist end -->
+
+        <!-- Section second -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                       <h1>About us</h1>
+                        <p class="pt-4">Hi, Welcome to our site, Web Care is the best in all Delhi NCR and we are
+                            providing all type's of website and provid your complete website solution. our Web
+                            Designers, and Developers are dedicated to producing quality business websites. our
+                            providing different 3 Type of services silver, gold and diamond. All service provider
+                            different type's of design accoding to you and your need. Web Care makes customized websites
+                            as per client requirement.Hi, Welcome to our site, Web Care is the best in all Delhi NCR and we are
+                            providing all type's of website and provid your complete website solution. our Web
+                            Designers, and Developers are dedicated to producing quality business websites. our
+                            providing different 3 Type of services silver, gold and diamond. All service provider
+                            different type's of design accoding to you and your need. Web Care makes customized websites
+                            as per client requirement</p>
+                            
+                            <button type="button" class="btn btn-outline-primary">Read More</button>
+                    </div>
+                    <div class="col-md-6">
+                         <img src="images/4.jpg" class="mt-5 team-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section second end -->
+
+
+        <!-- Section third -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center my-5">
+                        <p><strong>*Good to know!</strong> You are not limited to the examples we've built. We have the liberty to choose any of the page layouts and components from the package and create your own version.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section third end -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mt-5">
+                        <h4 class="text-white mb-3 border1">
+                            <p>Contact Details</p>
+                        </h4>
+                        <ul>
+                            <li class="mb-3 text-white"><i class="fa fa-map-marker"></i>abc-xyz.12345 delhi,india</li>
+                            <li class="mb-3 text-white"><i class="fa fa-mobile"></i>+91-1234567890</li>
+                            <li class="mb-3 text-white"><i class="fa fa-envelope"></i>abc@xyz.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <h4 class="text-white mb-3 border1">
+                            <p>Useful Links</p>
+                        </h4>
+                        <ul>
+                            <li class="mb-3 h5 text-white">Home</li>
+                            <li class="mb-3 h5 text-white">About</li>
+                            <li class="mb-3 h5 text-white">Service</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <h4 class="text-white mb-3 border1">
+                            <p>Useful Links</p>
+                        </h4>
+                        <ul>
+                            <li class="mb-3 h5 text-white">Portfolio</li>
+                            <li class="mb-3 h5 text-white">Contact</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 my-5">
+                        <h4 class="text-white mb-3 border1">
+                            <p>Social Media</p>
+                        </h4>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="col-lg-12 text-center mt-5">
+                        <p class="text-white">Copyright ©2021 Mr.Prince Sharma | All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function() {
+            var options = {
+                whatsapp: "9540336757", // WhatsApp number
+                call_to_action: "Message", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+
+    </script>
+    <!-- /GetButton.io widget -->
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- aos js -->
+    <script src="js/aos.js"></script>
+  
+</body>
+
+</html>
